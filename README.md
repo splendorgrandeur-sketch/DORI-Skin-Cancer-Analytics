@@ -45,7 +45,7 @@ FROM table2;
 
 The Face has the most malignant diagnoses in raw count (102), but weighting malignant count against total cases per region tells a different story: the **Nose has the highest malignancy rate at 69.1%** — nearly double the Face's 36.7% — despite 4x fewer total cases.
 
-![Malignant rate by region](./assets/region_malignant_rate.png)
+![Malignant rate by region](./region_malignant_rate.png)
 
 ```sql
 SELECT
@@ -63,13 +63,13 @@ ORDER BY malignant_rate_pct DESC;
 
 Patients who both smoke and drink show an **82.1% malignant rate**, 3.4x the 24.5% baseline for patients with neither habit. Each factor alone (smoking, alcohol, pesticide exposure, family cancer history) runs close to 3x baseline — but combined smoking and drinking is the single strongest signal in the dataset.
 
-![Lifestyle compounding effect](./assets/lifestyle_compounding.png)
+![Lifestyle compounding effect](./lifestyle_compounding.png)
 
 ### 3. Itching, not bleeding, is the dominant symptom
 
 Across all lesions, **itch (62%)** and **elevation (56%)** were the most commonly reported symptoms — well ahead of bleeding (20%), pain (14%), or visible change (9%). 47% of lesions were actively growing at the time of record, and 42% were biopsied.
 
-![Diagnosis frequency](./assets/diagnosis_frequency.png)
+![Diagnosis frequency](./diagnosis_frequency.png)
 
 ### 4. Diameter is a meaningful severity signal
 
