@@ -4,6 +4,9 @@
 
 Prepared for DORI (Dermalife Oncology & Research Institute) as a data analytics capstone project.
 
+📊 **[View the full slide deck](./DORI_Skin_Cancer_Analytics.pptx)**
+📄 **[Read the case study write-up](./DORI_Skin_Cancer_Case_Study.docx)**
+
 [![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/status-complete-brightgreen)](#)
 [![Questions](https://img.shields.io/badge/analysis_questions-20-blue)](#)
@@ -79,7 +82,7 @@ Melanoma (MEL) lesions averaged **14.09mm** in diameter at diagnosis — over 5x
 
 72% of patients lack piped water access and 75% lack sewage access. Cross-referencing sanitation status against malignancy rate produced a surprising result: patients with **adequate** sanitation showed a *higher* malignant rate (61.8%) than patients with **poor** sanitation (22.3%) — the opposite of a simple deprivation model.
 
-> **This is very likely a detection-bias effect, not a biological one.** Patients with better infrastructure likely also have better healthcare access, so a larger share of their diagnoses get confirmed as malignant rather than missed. This finding is flagged rather than presented as a causal claim, and would need clinic-access data to validate before any external use.
+> **This is very likely a detection-bias effect, not a biological one.** Patients with better infrastructure likely also have better healthcare access, so a larger share of their diagnoses gets confirmed as malignant rather than missed. This finding is flagged rather than presented as a causal claim and would need clinic-access data to validate before any external use.
 
 ## ⚠️ Limitations
 
@@ -100,8 +103,10 @@ Melanoma (MEL) lesions averaged **14.09mm** in diameter at diagnosis — over 5x
 ## 📁 Repository contents
 
 ```
-├── DORI_SKIN_CANCER_ANALYSIS.sql   # All 20 queries, organized by theme
-├── assets/                          # Chart images used in this README
+├── DORI_SKIN_CANCER_ANALYSIS.sql          # All 20 queries, organized by theme
+├── DORI_Skin_Cancer_Analytics.pptx        # Slide deck summary of findings
+├── DORI_Skin_Cancer_Case_Study.docx       # Full written case study
+├── assets/                                 # Chart images used in this README
 └── README.md
 ```
 
@@ -111,4 +116,4 @@ Melanoma (MEL) lesions averaged **14.09mm** in diameter at diagnosis — over 5x
 
 ---
 
-*Part of a broader data analytics portfolio spanning SQL, Power BI, and Excel capstone projects. Connect with me on [LinkedIn](#) or check out my other work.*
+*Part of a broader data analytics portfolio spanning SQL, Power BI, and Excel capstone projects. Connect with me on [LinkedIn](https://www.linkedin.com/in/splendorgrandeur/) or check out my other work.*
